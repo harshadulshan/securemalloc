@@ -1,0 +1,22 @@
+# Compiled files
+*.exe
+*.obj
+*.o
+
+# SQLite database (contains test data)
+*.db
+
+# CSV exports
+*.csv
+
+# C# build output
+SecureMalloc.Dashboard/bin/
+SecureMalloc.Dashboard/obj/
+
+# SQLite amalgamation (too large for GitHub)
+src/sqlite3.c
+src/sqlite3.h
+
+# Visual Studio
+.vs/
+*.user
